@@ -1,0 +1,97 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.menu-container {
+    display:flex;
+    background-color:azure;
+    padding:20px;
+    justify-content:center;
+}
+
+.menu {
+    display:flex;
+    width:500px;
+    justify-content:space-between;
+}
+
+.container {
+    display:flex;
+    justify-content:start;
+    margin:20px 20px;
+    width:900px;
+    gap:50px;
+    flex:1 1 0;
+    align-items:center;
+}
+
+.img {
+    display:block;
+    height:350px;
+    width:auto;
+    flex:0 1 0;
+}
+
+.ingredients {
+    flex:2 1 0;
+    color:green;
+}
+
+.list {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+h1 {
+    font-size:40px;
+    color:red;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+}
+
+h2 {
+    font-size:30px;
+    font-weight:bold;
+    color:red;
+}
+
+.text-container {
+    display:flex;
+    flex-direction:column;
+    margin:10px 250px 10px 20px;
+    flex:1 1 auto;
+    padding:20px;
+    color:green;
+    font-size:17px;
+    height:200px;
+    justify-content:space-around;
+}
+.steps-text {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    gap:20px;
+}
+
+.footer-container {
+    background-color:azure;
+}
+
+.quick {
+    margin:40px auto 10px 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100px;
+    padding:20px;
+    gap:10px;
+}
+
+.two {
+    text-align:center;
+    padding:20px;
+}
