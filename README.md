@@ -6,4 +6,5 @@ Understanding of -:
 2. GIT 
 3. HTML5 
 4. CSS3
+
 Come with me on this journey of self discovery
