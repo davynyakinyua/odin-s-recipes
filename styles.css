@@ -31,7 +31,8 @@
 .container {
     border:1px solid ghostwhite;
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
+    gap:40px;
 }
 
 .img {
@@ -49,20 +50,24 @@
     margin:0 20px;
 }
 
-.anchor {
+.anchor{
     padding:10px;
+    text-decoration:none;
+
 }
+
 
 .text {
     color:black;
     font-weight:bolder;
     font-size:16px;
+    text-decoration:dashed;
 }
 
 .footer-container {
     background-color:azure;
     display:flex;
-    margin-top:10px;
+    margin-top:230px;
     height:auto;
     padding:20px;
     justify-content:flex-start;
@@ -89,4 +94,7 @@
     justify-content: flex-end;
     margin-top:80px;
     
+}
+a {
+    text-decoration:none;
 }
