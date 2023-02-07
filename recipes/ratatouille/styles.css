@@ -1,6 +1,6 @@
 * {
     box-sizing:border-box;
-    margin:0;
+    margin:0px;
     padding:0;
 }
 
@@ -19,23 +19,17 @@
 
 .container {
     display:flex;
-    justify-content:start;
-    margin:20px 20px;
-    width:900px;
-    gap:50px;
-    flex:1 1 0;
-    align-items:center;
+    justify-content: space-around;
 }
 
 .img {
-    display:block;
+    display:flex;
     height:350px;
     width:auto;
     flex:0 1 0;
 }
 
 .ingredients {
-    flex:2 1 0;
     color:green;
 }
 
@@ -94,4 +88,8 @@ h2 {
 .two {
     text-align:center;
     padding:20px;
+}
+
+a {
+    text-decoration:none;
 }
