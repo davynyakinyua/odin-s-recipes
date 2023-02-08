@@ -101,5 +101,7 @@ a {
 }
 
 .one {
-    font-weight:bolder;
+    color:aqua;
+    font-size:20px;
+    font-weight:bold;
 }
