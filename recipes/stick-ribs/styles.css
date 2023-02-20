@@ -22,9 +22,13 @@ a {
     text-decoration:none;
 }
 
-.title{
+.heading{
     text-align:center;
     padding:10px 10px;
+}
+
+.color{
+    color:red;
 }
 
 .image-container{
@@ -39,4 +43,16 @@ a {
     display:flex;
     width:500px;
     height:auto;
+}
+
+h1{
+    color:red;
+}
+
+h2{
+    color:red;
+}
+
+ul{
+    color:blue;
 }
