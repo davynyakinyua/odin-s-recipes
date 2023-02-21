@@ -56,3 +56,16 @@ h2{
 ul{
     color:blue;
 }
+
+.steps{
+    padding:20px 0 0 200px;
+}
+
+
+.steps-list{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    padding:10px 100px;
+    gap:5px;
+}
