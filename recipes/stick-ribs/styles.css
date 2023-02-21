@@ -69,3 +69,32 @@ ul{
     padding:10px 100px;
     gap:5px;
 }
+
+.footer-container {
+    background-color:azure;
+}
+
+.quick {
+    margin:40px auto 10px 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100px;
+    padding:20px;
+    gap:10px;
+}
+
+.two {
+    text-align:center;
+    padding:20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.sub {
+    color:aqua;
+    font-size:20px;
+    font-weight:bold;
+}
