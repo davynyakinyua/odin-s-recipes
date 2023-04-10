@@ -59,7 +59,7 @@
 
 
 .text {
-    color:blue;
+    color:grey;
     font-size:16px;
 }
 
@@ -101,7 +101,15 @@ a {
 }
 
 .one {
-    color:aqua;
+    color:black;
     font-size:20px;
     font-weight:bold;
+}
+
+a {
+    color:blue;
+}
+
+.title-2 {
+    color:red;
 }
