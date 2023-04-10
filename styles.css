@@ -96,9 +96,7 @@
     margin-top:80px;
     
 }
-a {
-    text-decoration:none;
-}
+
 
 .one {
     color:black;
@@ -108,6 +106,7 @@ a {
 
 a {
     color:blue;
+    text-decoration:none;
 }
 
 .title-2 {
